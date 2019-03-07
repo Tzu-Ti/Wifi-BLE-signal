@@ -1,5 +1,7 @@
 #import package
 from sklearn import model_selection, ensemble, metrics
+import numpy as np
+import pandas as pd
 
 # load numpy array of data
 section1_rssi = np.load("0rssi.npy")
