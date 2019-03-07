@@ -6,7 +6,6 @@ import math
 import re
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
 
 # initalize variable
 rssi_list = []
