@@ -12,7 +12,7 @@ rssi_list = []
 label = []
 i = 1
 previous_minute = 0
-people = int(input("How many people in this space: "))
+people = input("How many people in this space: ")
 
 # get wifi signal
 time.sleep(60)
@@ -62,7 +62,7 @@ while True:
             elif bssid == "00:1e:94:03:81:60":
                 wifi5 = rssi
     rssi_list.append([wifi0, wifi1, wifi2, wifi3, wifi4, wifi5])
-    label.append(people)
+    label.append(int(people))
     
     if i == 500:
         break
